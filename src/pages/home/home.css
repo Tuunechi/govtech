@@ -471,7 +471,7 @@
     } */
 
     .each-value{
-        height: 17vh;
+        height: 20vh;
     }
 
     .value-header{
@@ -492,7 +492,13 @@
     }
 }
 
-@media screen and (max-width:370px) {
+@media screen and (max-width:395px) {
 
-    
+    .hero-details{
+        margin-top: 2%;
+    }
+
+    .hero-details-header{
+        font-size: 28px;
+    }
 }

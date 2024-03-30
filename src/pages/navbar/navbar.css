@@ -116,7 +116,7 @@
         width: 5vw;
         position: absolute;
         top: 5%;
-        right: 5%;
+        right: 8%;
         z-index: 3;
         display: block;
     }
@@ -137,6 +137,7 @@
         width: 60vw;
         top: 0;
         right: -11%;
+        z-index: 3;
 
 
     }
