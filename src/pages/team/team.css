@@ -1,0 +1,81 @@
+.team{
+    width: 80%;
+    margin: auto;
+    font-family: var(--primary-font);
+}
+
+.coporate-philosophy{
+    margin-top: 5%;
+}
+
+.coporate-philisophy-header{
+    color:rgba(15, 0, 73, 1);
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2rem;
+}
+
+
+.coporate-philisophy-details{
+    line-height: 27px;
+    color: rgba(71, 83, 107, 1);
+    font-size: 1.2rem ;
+
+}
+
+
+.our-team{
+    margin-top: 8%;
+}
+
+.our-team-header{
+    margin-bottom: 2%;
+    font-size: 2rem;
+    color:rgba(15, 0, 73, 1);
+}
+
+.our-team-members{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2%;
+    row-gap: 9%;
+}
+
+.each-member-detail{
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+}
+
+.member-name{
+    margin-top:5% ;
+}
+
+.role{
+    color: rgba(34, 38, 132, 1);
+    font-size: 1.2rem;
+}
+
+.member-name{
+    font-size: 1.1rem
+}
+
+
+.twitter{
+    padding-right: 6%;
+}
+
+.why-choose-us{
+    width: 80%;
+    margin: 18% auto 0 auto;
+}
+
+.why-choose-us-header{
+    text-align: center;
+    font-family: var(--primary-font);
+    margin-bottom: 5%;
+    font-size: 2rem
+}
+

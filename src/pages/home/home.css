@@ -1,0 +1,476 @@
+.home{
+    position: relative;
+}
+
+.nav-design{
+  position: absolute
+}
+
+.hero-page{
+    width: 80%;
+    margin: 10% auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-span{
+    color: rgba(34, 38, 132, 1);
+}
+
+
+.hero-image-wrapper{
+    border: 4px solid rgba(34, 38, 132, 1);
+    border-radius: 5px;
+    position: relative;
+    width: 45%;
+    height: 45vh;
+    object-fit: cover;
+    /* width: 60%; */
+}
+
+.hero-image-wrapper img{
+    position: absolute;
+    right: 2%;
+    bottom: 4%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-details{
+    font-family: var(--primary-font);
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero-details-header{
+    font-size: 2.6rem;
+}
+
+.hero-paragraph{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.learn-more{
+    background-color: rgba(34, 38, 132, 1);
+    width: 10vw;
+    height: 5vh;
+    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    border: none;
+}
+
+.key-features{
+    margin: 0px auto ;
+    background-size: cover;
+    font-family: var(--primary-font);
+    margin-top:12% ;
+    background: rgba(241, 221, 217, 1);
+    height: 120vh;
+}
+
+.key-features-header{
+    padding-top: 10vh;
+    text-align: center;
+    color: rgba(15, 0, 73, 1);
+
+}
+
+
+.key-features-details{
+    color: rgba(15, 0, 73, 1);
+    text-align: center;
+}
+
+.our-services{
+    width: 85%;
+    margin: 5% auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 3%;
+}
+
+.IT, .cyber-security, .support, .cloud{
+    background: rgba(229, 210, 206, 1); 
+    height: 35vh; 
+    margin: auto;
+    display: flex;
+}
+
+
+.IT-header, .cyber-security-header, .support-header, .cloud-header{
+    color: rgba(15, 0, 73, 1);
+    padding-top: 5%;
+    font-size: 1.2rem;
+    width: 80%;
+    /* margin: auto; */
+    display: inline-flex;
+}
+
+.empowerment-and-impact-group{
+    display: flex;
+    grid-column: 1/4;
+    column-gap: 20px;
+}
+
+.value-details{
+    /* padding-left: 2vw; */
+}
+
+.box{
+    /* margin-right:1vw; */
+    margin-top: 5%;
+    width: 30%;
+}
+
+.IT-details, .cyber-security-details, .support-details, .cloud-details{
+    width: 80%;
+    padding-top: 5%;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+
+.explore-more-features{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.explore-more-features button{
+    background-color: rgba(34, 38, 132, 1);
+    color: whitesmoke;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    border-radius: 10px;
+    height: 5vh;
+    width: 10%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-arrow{
+    font-size: 1.5vw;
+}
+
+/* .core-values-wrapper{
+    
+} */
+
+.core-values{
+    color: rgba(15, 0, 73, 1);
+    font-family:var(--primary-font) ;
+    width: 90%;
+    margin: auto  ;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 5%;
+    column-gap: 2%;
+}
+
+.core-values-header{
+    font-family: var(--primary-font);
+    color: rgba(15, 0, 73, 1);
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.each-value{
+    background: rgba(242, 242, 242, 1);
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+
+
+}
+
+
+
+.value-details, .value-header, .value-id{
+    width: 80%;
+    margin: 2% 0 ;
+    padding-left: 5%;
+    height: 5vh;
+}
+
+
+
+@media screen and (max-width: 1200px ) {
+    .hero-details-header{
+        font-size: 2.5rem;
+    }
+
+
+    .hero-image-wrapper{
+        height: 23vh;
+    }
+
+    .hero-details{
+        width: 55%;
+    }
+
+    .hero-paragraph{
+        font-size: 1.2rem;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    .learn-more{
+        height: 4vh;
+        width: 15vw;
+    }
+
+    .hero-paragraph{
+        width: 85%;
+    }
+
+    .key-features{
+        height: 100vh;
+    }
+    /* .IT, .cyber-security, .support, .cloud{
+        height: 30vh;
+    } */
+
+    .each-value{
+        height: 20vh;
+    }
+    .explore-more-features button{
+        width: 20%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1030px) {
+
+
+    .hero-details-header{
+        font-size: 2.5rem;
+    }
+
+    .hero-paragraph{
+        font-size: 1rem;
+    }
+
+    .hero-details{
+        margin-right: 2vw;
+    }
+
+    .key-features-header{
+        padding-top: 5vh;
+    }
+
+    .key-features-header, .core-values-header{
+        font-size: 2rem;
+    }
+
+    .key-features{
+        height: 85vh;
+    }
+    .IT, .cyber-security, .support, .cloud {
+        height: 25vh;
+    }
+
+
+    .our-services{
+        width: 90%;
+    }
+
+    .IT-details, .cyber-security-details, .support-details, .cloud-details{
+        width: 90%;
+    }
+
+    .core-values{
+        width: 90%;
+    }
+
+    .core-values-header{
+        margin-bottom: 5vh;
+        font-size: 2.3rem;
+    }
+
+    .value-details{
+        width: 90%;
+    }
+
+    .value-details, .value-header, .value-id {
+        height: 3vh;
+    }
+
+    .value-header, .value-id{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero-page{
+        flex-direction: column-reverse;
+        height: 50vh;
+    }
+
+    .hero-image-wrapper{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .nav-design{
+        width: 50%;
+    }
+
+    .hero-details{
+        width: 100%;
+    }
+
+    .hero-details-header, .hero-paragraph{
+        text-align: center;
+    }
+
+    .hero-paragraph{
+        width: 60%;
+        margin: auto;
+        margin-top:1vh ;
+    }
+
+    .learn-more {
+        margin: 2% auto 0 auto;
+    }
+
+    .learn-more {
+        width: 20vw;
+    }
+
+    .key-features-header{
+        padding-top: 5vh;
+    }
+
+    .our-services{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+    }
+
+    .key-features{
+        height: max-content;
+    }
+
+    .IT, .cyber-security, .support, .cloud{
+        height: max-content;
+        padding-bottom: 7vh;
+    }
+
+    .IT-header, .cyber-security-header, .support-header, .cloud-header{
+        width: 90%;
+        /* font-size: 1.4rem; */
+    }
+
+    .explore-more-features{
+        padding-bottom: 5%;
+    }
+
+    .explore-more-features button{
+        width: 30%;
+    }
+
+    .core-values{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .empowerment-and-impact-group {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .value-details, .value-header, .value-id {
+        height: 2vh;
+    }
+
+
+}
+
+
+@media screen and (max-width:530px) {
+
+    .nav-design{
+        width: 60%;
+    }
+
+    .hero-page{
+        height: 75vh;
+        justify-content: space-evenly;
+    }
+
+    .hero-details{
+        margin-top: -20px;
+    }
+    .hero-details-header{
+        font-size: 2.3rem;
+    }
+
+    .hero-paragraph{
+        width: 80%;
+    }
+
+    .learn-more{
+        width: 40%;
+        height: 6vh;
+        margin-top:5% ;
+    }
+
+    .core-values-header{
+        margin-top: 10%;
+    }
+
+    .value-header{
+        margin-bottom: 5%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:420px) {
+    .hero-details-header{
+        font-size: 30px;
+    }
+
+    .hero-paragraph{
+        font-size: 14px;
+    }
+
+    .key-features-header, .core-values-header{
+        font-size: 1.7rem;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .value-header, .value-id{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:370px) {
+
+    .hero-page{
+        
+    }
+    
+}

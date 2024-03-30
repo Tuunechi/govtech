@@ -1,0 +1,85 @@
+.footer-wrapper{
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--primary-font);
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+.footer{
+    width: 80%;
+    margin: 0% auto 0% auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.govtech-drive{
+    width: 20%;
+}
+
+.footer-navs{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.footer-navs div{
+    width: 80%;
+}
+
+
+.drive{
+    padding-top: 7%;
+}
+
+.company ul, .help ul, .support ul{
+    padding-top: 5%;
+}
+
+
+.contact p{
+    padding-top: 3%;
+}
+
+.company-links li, .help-links li, .support-links li{
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 800px) {
+    .footer{
+        flex-direction:column ;
+    }
+
+    .govtech-drive{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+
+    .footer-navs{
+        width: 100%;
+    }
+
+    .company-header, .help-header, .contact-us{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:530px) {
+
+    .drive{
+        width: 80vw;
+    }
+    .footer-navs{
+        flex-direction: column;
+    }
+
+    .company-links, .help-links{
+        /* margin-top: unset; */
+        margin-bottom: 10%;
+    }
+
+    .company ul, .help ul{
+        padding-top: 2px;
+    } 
+}
