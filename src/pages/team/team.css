@@ -1,5 +1,5 @@
 .team{
-    width: 80%;
+    width: 80vw;
     margin: auto;
     font-family: var(--primary-font);
 }
@@ -39,6 +39,7 @@
     grid-template-columns: auto auto auto;
     column-gap: 2%;
     row-gap: 9%;
+    width: 70%;
 }
 
 .each-member-detail{
@@ -47,6 +48,9 @@
     flex-direction: column;
     justify-content: space-between;
     height: 40%;
+}
+.member-image{
+    width: 25vw;
 }
 
 .member-name{
@@ -77,5 +81,93 @@
     font-family: var(--primary-font);
     margin-bottom: 5%;
     font-size: 2rem
+}
+
+@media screen and (max-width:1200px) {
+    
+    .our-team-members{
+        grid-template-columns: 1fr 1fr;
+        width: 80vw;
+    }
+
+    .member-image{
+        width: 40vw;
+    }
+
+    .why-choose-us{
+        margin-top: 37vh;
+    }
+
+    .why-choose-us-image{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .coporate-philisophy-details{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .our-team-header, .why-choose-us-header{
+        font-size: 1.7rem;
+    }
+
+    .member-details{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .member-name{
+        font-size:14px ;
+    }
+
+    .role{
+        font-size: 16px;
+    }
+
+
+    .why-choose-us{
+        margin-top: 32vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .our-team-members{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member-image{
+        width: 100%;
+        margin-top: 8%;
+    }
+    .coporate-philisophy-header{
+        font-size: 24px;
+    }
+
+    .coporate-philisophy-details{
+        font-size: 14px;
+    }
+
+    .our-team-header, .why-choose-us-header{
+        font-size: 24px;
+    }
+
+    .linkedin{
+        width: 5vw;
+    }
+
+    .twitter{
+        width: 10vw;
+    }
+
+    .why-choose-us{
+        margin-top: 9vh;
+    }
+
+    .why-choose-us-image{
+        width: 100%;
+    }
 }
 

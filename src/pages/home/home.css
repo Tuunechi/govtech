@@ -455,22 +455,44 @@
     }
 
     .key-features-header, .core-values-header{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
-    p{
+    .IT-header, .cyber-security-header, .support-header, .cloud-header{
+        font-size: 1rem;
+    }
+
+    .IT-details, .cyber-security-details, .support-details, .cloud-details{
+        font-size: 12px;
+    }
+
+    /* p{
         font-size: 14px;
+    } */
+
+    .each-value{
+        height: 17vh;
+    }
+
+    .value-header{
+        margin-top: 1%;
+    }
+
+    .value-id{
+        margin-bottom: 1%;
     }
 
     .value-header, .value-id{
-        font-size: 24px;
+        font-size: 18px;
+    }
+
+
+    .value-details{
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width:370px) {
 
-    .hero-page{
-        
-    }
     
 }

@@ -4,6 +4,9 @@ import './navbar.css';
 import '../../reset.css';
 import cancel from './images/cancel-icon.svg';
 import hambuger from './images/hamburger.svg';
+import {Link} from "react-router-dom"
+
+
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,13 +22,13 @@ export default function Navbar() {
           <img src={logo} className='logo' alt="govtech logo" />
         </div>
         <img src={hambuger} className='hamburger-menu' onClick={toggleMenu} alt="hamburger menu" />
-        <div className="nav-items-wrapper">
-          <img src={cancel} alt="cancel icon" onClick={toggleMenu} className="cancel-icon" />
-          <ul className='nav-items' id={!menuOpen ? 'closed' : 'open'}>
-            <li className='nav-item'><a href="/">Home</a></li>
-            <li className='nav-item'><a href="/">About</a></li>
-            <li className='nav-item'><a href="/">Team</a></li>
-            <button className='get-in'>Get In Touch</button>    
+        <div className="nav-items-wrapper" id={!menuOpen ? 'closed' : 'open'}>
+          <img src={cancel} alt="cancel icon" className={!menuOpen ? 'cancel-closed': 'cancel-open'} onClick={toggleMenu} className="cancel-icon" />
+          <ul className='nav-items' >
+            <li className='nav-item'><Link to={'/'} href="/">Home</Link></li>
+            <li className='nav-item'><Link to={'/about'} href="/">About</Link></li>
+            <li className='nav-item'><Link to={'/team'} href="/">Team</Link></li>
+            <button className='get-in'><Link to={'/contact'}>Get In Touch</Link></button>    
           </ul>
         </div>
       </nav>
