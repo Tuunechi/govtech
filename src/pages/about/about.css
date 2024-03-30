@@ -186,28 +186,25 @@
 }
 
 @media screen and (max-width: 450px) {
+
+    .our-mission{
+        margin-top: 15vh;
+    }
     .about-hero{
         margin-top: 22vh;
     }
-
-    .our-mission{
-        margin-top: 10vh;
-    }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
     .our-mission{
-        margin-top: 25vh;
+        margin-top: 30vh;
     }
 }
 
 @media screen and (max-width:395px) {
     .about-hero{
-        margin-top: 40%;
+        margin-top: 20vh;
     }
     
-    .our-mission{
-        margin-top: 45%;
-    }
 }
 
