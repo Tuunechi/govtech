@@ -201,4 +201,13 @@
     }
 }
 
+@media screen and (max-width:395px) {
+    .about-hero{
+        margin-top: 40%;
+    }
+    
+    .our-mission{
+        margin-top: 45%;
+    }
+}
 
