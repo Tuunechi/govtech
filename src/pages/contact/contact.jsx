@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function Contact() {
-  
+
   const [isLoading, setIsLoading] = useState(false);
   const form = useRef();
 
@@ -17,7 +17,7 @@ export default function Contact() {
     e.preventDefault();
     setIsLoading(true);
 
-    emailjs.sendForm('service_584aslm', 'template_080phhi', form.current, 'QC3zDzE9tArpyIDxC')
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLIC_KEY)
       .then(
         () => {
           console.log('SUCCESS!');

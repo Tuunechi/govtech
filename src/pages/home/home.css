@@ -111,6 +111,7 @@
     color: rgba(15, 0, 73, 1);
     padding-top: 5%;
     font-size: 1.2rem;
+    padding-left: 4px;
     width: 80%;
     /* margin: auto; */
     display: inline-flex;
@@ -319,9 +320,12 @@
 @media screen and (max-width: 820px) {
     .hero-page{
         flex-direction: column-reverse;
-        height: 50vh;
+
     }
 
+    .hero-details{
+        margin-top: 4vh;
+    }
     .hero-image-wrapper{
         width: 100%;
         height: 30vh;
@@ -411,12 +415,11 @@
     }
 
     .hero-page{
-        height: 75vh;
         justify-content: space-evenly;
     }
 
     .hero-details{
-        margin-top: -20px;
+        margin-top: 4vh;
     }
     .hero-details-header{
         font-size: 2.3rem;
@@ -440,7 +443,13 @@
         margin-bottom: 5%;
     }
 
+    .each-value{
+        height: 23vh;
+    }
 
+    .value-id, .value-header{
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -470,15 +479,14 @@
         font-size: 14px;
     } */
 
-    .each-value{
-        height: 20vh;
-    }
+
 
     .value-header{
         margin-top: 1%;
     }
 
     .value-id{
+        margin-top: 12px;
         margin-bottom: 1%;
     }
 
@@ -495,7 +503,7 @@
 @media screen and (max-width:395px) {
 
     .hero-details{
-        margin-top: 2%;
+        margin-top: 4vh;
     }
 
     .hero-details-header{
